@@ -9,7 +9,7 @@
 将代码放入`src`文件夹中(这个文件夹在第二步进入的文件夹中)， 会自动映射到Docker的 `root/src`中
 ## 对于之前已经配置好vagrant的同学，如何实现映射
 1. 找个另外的地方clone下代码后用里面的文件覆盖掉原来的文件
-2. 在`git bash`中运行 vagrant reload
+2. 在`git bash`中运行 vagrant reload  
 ## 常见问题  
 - 如果Docker没有安装，提示command not found,在SSH之后，键入`sudo curl -sSL https://get.docker.com (https://get.docker.com/) | sh`，安装Docker
 - `vagrant up`或`vagrant reload` 红字提示如下
