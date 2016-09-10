@@ -1,1 +1,2 @@
-sudo curl -sSL https://get.docker.com (https://get.docker.com/) | sh
+cd /home/
+curl -sSL https://get.docker.com | sh
